@@ -7,17 +7,23 @@ let myDate = new Date()
 // console.log("type of Date:",typeof myDate); //=> object
 
 let myCreatedDate = new Date(2002, 0, 28)
-// console.log(myCreatedDate.toDateString());
-// console.log(myCreatedDate.toLocaleString());
-// console.log(myCreatedDate.toJSON());
-// console.log(myCreatedDate.toISOString());
+// console.log("toString:",myCreateDate.toString());
+// console.log("toDateString:",myCreateDate.toDateString());
+// console.log("toLocalString:",myCreateDate.toLocaleString());
+// console.log("type of Date:",typeof myCreateDate); //=> object
 
 let myCreatedDate1 = new Date(2023, 0, 23, 5, 3)
-// console.log(myCreatedDate.getDate());
-// console.log(myCreatedDate.getDay());
+console.log("Date:",myCreatedDate1.getDate());
+console.log("Day:",myCreatedDate1.getDay());
+console.log("Hours:",myCreatedDate1.getHours());
 
 let myCreatedDate2 = new Date("2023-01-14")
+console.log("Date:",myCreatedDate2.getDate());
+console.log("Day:",myCreatedDate2.getDay());
+
 let myCreatedDate3 = new Date("01-14-2023")
+// console.log(myCreatedDate.getDate());
+// console.log(myCreatedDate.getDay());
 
 let myTimeStamp = Date.now()
 // console.log(myTimeStamp);
