@@ -1,4 +1,5 @@
-//  Primitive
+
+//  Primitive(Stack memory allocation)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -17,12 +18,12 @@ console.log(id === anotherId);
 // const bigNumber = 3456543576654356754n
 
 
-
-// Reference (Non primitive)
+// Reference (Non primitive)(Heap memory allocation)
 
 // Array, Objects, Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
+
 let myObj = {
     name: "hitesh",
     age: 22,
@@ -31,7 +32,7 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
-
+console.log(myFunction());
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
