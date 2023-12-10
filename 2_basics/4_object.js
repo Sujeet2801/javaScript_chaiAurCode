@@ -7,7 +7,7 @@ tinderUser.id = "280102"
 tinderUser.name = "Sujeet"
 tinderUser.isLoggedIn = false
 
-console.log(tinderUser);
+// console.log(tinderUser);
 
 const regularUser = {
     email: "some@gmail.com",
@@ -46,13 +46,12 @@ const users = [
     },
 ]
 
-users[1].email
+console.log(users[1].email)
 // console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
-
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 /*************** Object Destructing *****************/
@@ -70,12 +69,14 @@ const course = {
 // console.log(courseInstructor);
 // console.log(instructor);
 
+// Json Format
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
+// API 
 [
     {},
     {},
