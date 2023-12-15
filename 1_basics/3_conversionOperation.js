@@ -1,11 +1,11 @@
-let score = '33'
+let score = '33asddd'
 
 // console.log(typeof score);
 // console.log(typeof("score"));
 
 let valueInNumber = Number(score)
 // console.log(typeof valueInNumber);
-// console.log(valueInNumber); // NaN
+// console.log(valueInNumber); 
 
 // "33" => 33
 // "33abc" => NaN
@@ -26,7 +26,7 @@ let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
-// *********************** Operations ***********************
+/* *********************** Operations ***********************/
 
 let value = 3
 let negValue = -value
@@ -53,7 +53,7 @@ let str3 = str1 + str2
 // console.log( (3 + 4) * 5 % 5);
 
 // console.log(+true);
-// console.log(+"5");
+// console.log(typeof (1+"5"));
 
 let num1, num2, num3
 
