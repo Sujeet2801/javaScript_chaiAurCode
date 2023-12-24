@@ -4,7 +4,7 @@ const repoCount = 12
 
 // console.log(name + repoCount + " Value");
 
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+// console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('sujeet-hc-com')
 
@@ -15,18 +15,18 @@ const gameName = new String('sujeet-hc-com')
 // console.log(gameName.charAt(2));
 // console.log(gameName.indexOf('t'));
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(-1, 4)
 console.log(newString);
 
-const anotherString = gameName.slice(0, 2)
+const anotherString = gameName.slice(-10, -5)
 console.log(anotherString);
 
 const newStringOne = " sujeet    "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
 
 const url = "https://hitesh.com/hitesh%20choudhary"
 
-console.log(url.replace('%20', '-'))
-console.log(url.includes('sundar'))
-console.log(gameName.split('-'));
+// console.log(url.replace('%20', '-'))
+// console.log(url.includes('sundar'))
+// console.log(gameName.split('-'));

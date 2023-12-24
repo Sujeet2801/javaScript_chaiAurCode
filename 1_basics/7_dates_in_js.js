@@ -12,6 +12,9 @@ let myCreatedDate = new Date(2002, 0, 28)
 // console.log("toLocalString:",myCreateDate.toLocaleString());
 // console.log("type of Date:",typeof myCreateDate); //=> object
 
+// toString: Sun Dec 24 2023 13:29:31 GMT+0000(Coordinated Universal Time)
+// toLocalString: 12/24/2023, 1:29:31 PM
+
 let myCreatedDate1 = new Date(2023, 0, 23, 5, 3)
 console.log("Date:",myCreatedDate1.getDate());
 console.log("Day:",myCreatedDate1.getDay());
@@ -35,7 +38,7 @@ let newDate = new Date()
 // console.log(newDate.getMonth() + 1);
 // console.log(newDate.getDay());
 
-console.log(`Todays Date is ${newDate.getDate()} and the Month is ${newDate.getMonth()+1} `)
+// console.log(`Todays Date is ${newDate.getDate()} and the Month is ${newDate.getMonth()+1} `)
 
 newDate.toLocaleString('default', {
     weekday: "long",

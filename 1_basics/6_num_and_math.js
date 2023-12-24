@@ -26,7 +26,7 @@ const hundreds = 1000000
 // console.log(Math.max(4, 3, 6, 8));
 
 console.log("Random: ",Math.random()); //(lie b/w 0 & 1)
-// console.log("Random: ",(Math.random()*10) + 1);
+// console.log("Random: ",(Math.random()*10) + 1); //(0-1)
 // console.log("",Math.floor(Math.random()*10) + 1);
 // console.log("Random: ",(Math.random()*10) + 1);
 // console.log("",Math.floor(Math.random()*10) + 1);
