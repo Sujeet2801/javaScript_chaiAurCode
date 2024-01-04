@@ -42,4 +42,3 @@ const user = {
 const addTwo = (num1, num2) => ({username: "sujeet"})
 
 console.log(addTwo(5,7));
-
